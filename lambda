@@ -1,0 +1,11 @@
+# use lambda
+x=float(input("1-ci ededi daxil edin : "))
+y=float(input("2-ci ededi daxil edin : "))
+
+add=lambda x,y : x+y
+subtract=lambda x,y : x-y
+multiply=lambda x,y : x*y
+divide=lambda x,y : x/y
+
+print('Ədədlərin cəmi : ',round(add(x,y),2),'\t\tƏdədlərin fərqi : ',round(subtract(x,y),2))
+print('Ədədlərin hasili : ',round(multiply(x,y),2),'\tƏdədlərin nisbəti : ',round(divide(x,y),2))
